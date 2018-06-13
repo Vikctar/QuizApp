@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attempt All the Questions"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/codename_card"
+            cardCornerRadius="20dp"
+            cardElevation="20dp"
+            cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="What's the codename for latest version of android?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <RadioGroup
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/codename_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/oreo_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oreo"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/kitkat_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kitkat"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/nougat_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nougat"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/release_card"
+            cardCornerRadius="20dp"
+            cardElevation="20dp"
+            cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="When was the first version of android released?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <RadioGroup
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/release_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/twenty_ten_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2010"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/nineteen_sixty_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1960"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/twenty_eleven_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2011"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/founder_card"
+            cardCornerRadius="20dp"
+            cardElevation="20dp"
+            cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="Who is the founder of Android?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <RadioGroup
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/founder_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rubin_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Andy Rubin"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/bill_gates_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bill Gates"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/trump_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trump"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/owner_card"
+            cardCornerRadius="20dp"
+            cardElevation="20dp"
+            cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="Which company owns android?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <RadioGroup
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/owner_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/google_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Google"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/microsoft_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Microsoft"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/facebook_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kernel_card"
+            cardCornerRadius="20dp"
+            cardElevation="20dp"
+            cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="Which kernel is used in android?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <RadioGroup
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/kernel_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/linux_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Linux"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/windows_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Windows NT"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+                    <RadioButton
+                        android:id="@+id/unix_radio_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unix"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
