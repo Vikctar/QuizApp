@@ -15,7 +15,7 @@
     <string name="unix">Unix</string>
     <string name="who_created_git_hint">Who created git?</string>
     <string name="creator_of_git_hint">creator of git</string>
-    <string name="what_language">What language(s) is used to create apps on android? Check all that apply?</string>
+    <string name="what_language">What language(s) is used to create apps on android? Check all that apply.</string>
     <string name="java">Java</string>
     <string name="kotlin">Kotlin</string>
     <string name="swift">Swift</string>
