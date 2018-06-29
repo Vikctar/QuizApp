@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -43,29 +42,27 @@
                     android:id="@+id/codename_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/oreo_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Oreo"
+                        android:text="@string/oreo"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/kitkat_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Kitkat"
+                        android:text="@string/kitkat"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/nougat_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Nougat"
+                        android:text="@string/nougat"
                         android:textAppearance="?android:textAppearanceMedium" />
                 </RadioGroup>
 
@@ -98,29 +95,28 @@
                     android:id="@+id/release_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/twenty_ten_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2010"
+                        android:text="@string/twenty_ten"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/nineteen_sixty_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1960"
+                        android:text="@string/nineteen_sixty"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/twenty_eleven_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2011"
+                        android:text="@string/twenty_eleven"
                         android:textAppearance="?android:textAppearanceMedium" />
                 </RadioGroup>
 
@@ -153,29 +149,27 @@
                     android:id="@+id/founder_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/rubin_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Andy Rubin"
+                        android:text="@string/andy_rubin"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/bill_gates_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bill Gates"
+                        android:text="@string/bill_gates"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <RadioButton
                         android:id="@+id/trump_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Trump"
+                        android:text="@string/trump"
                         android:textAppearance="?android:textAppearanceMedium" />
                 </RadioGroup>
 
@@ -208,9 +202,7 @@
                     android:id="@+id/owner_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/google_radio_button"
@@ -263,9 +255,7 @@
                     android:id="@+id/kernel_radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/linux_radio_button"

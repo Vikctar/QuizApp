@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Congratulations!!! You got everything correct", Toast.LENGTH_SHORT).show();
 
                 } else {
-                    Toast.makeText(MainActivity.this, "One or more answers are not correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "One or more answers are incorrect", Toast.LENGTH_SHORT).show();
                 }
 
             }

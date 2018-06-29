@@ -20,4 +20,13 @@
     <string name="kotlin">Kotlin</string>
     <string name="swift">Swift</string>
     <string name="cpp">C/C++</string>
+    <string name="andy_rubin">Andy Rubin</string>
+    <string name="bill_gates">Bill Gates</string>
+    <string name="trump">Trump</string>
+    <string name="oreo">Oreo</string>
+    <string name="nougat">Nougat</string>
+    <string name="kitkat">Kitkat</string>
+    <string name="twenty_ten">2010</string>
+    <string name="nineteen_sixty">1960</string>
+    <string name="twenty_eleven">2011</string>
 </resources>
