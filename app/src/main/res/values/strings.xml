@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">Android Trivia</string>
     <string name="action_reset">Reset</string>
+    <string name="attempt_all_the_questions">Attempt All the Questions</string>
+    <string name="codename">What\'s the codename for latest version of android?</string>
+    <string name="first_version">When was the first version of android released?</string>
+    <string name="founder">Who is the founder of Android?</string>
+    <string name="parent_company">Which company owns android?</string>
+    <string name="google">Google</string>
+    <string name="fb">Facebook</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="kernel">Which kernel is used in android?</string>
+    <string name="linux">Linux</string>
+    <string name="windows">Windows NT</string>
+    <string name="unix">Unix</string>
+    <string name="who_created_git_hint">Who created git?</string>
+    <string name="creator_of_git_hint">creator of git</string>
+    <string name="what_language">What language(s) is used to create apps on android? Check all that apply?</string>
+    <string name="java">Java</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="swift">Swift</string>
+    <string name="cpp">C/C++</string>
 </resources>
